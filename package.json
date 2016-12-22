@@ -1,9 +1,22 @@
 {
     "name": "casl2",
     "displayName": "CASL2",
-    "description": "",
+    "description": "CASL2 support for Visual Studio Code.",
     "version": "0.1.0",
-    "publisher": "CASL2",
+    "publisher": "MaxfieldWalker",
+    "galleryBanner": {
+        "color": "#000",
+        "theme": "dark"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/MaxfieldWalker/vscode-casl2"
+    },
+    "bugs": {
+        "url": "https://github.com/MaxfieldWalker/vscode-casl2/issues"
+    },
+    "homepage": "https://github.com/MaxfieldWalker/vscode-casl2/blob/master/README.md",
+    "license": "MIT",
     "engines": {
         "vscode": "^1.5.0"
     },
