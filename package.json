@@ -2,7 +2,7 @@
     "name": "casl2",
     "displayName": "CASL2",
     "description": "CASL2 support for Visual Studio Code.",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "publisher": "MaxfieldWalker",
     "galleryBanner": {
         "color": "#000",
@@ -24,16 +24,25 @@
         "Languages"
     ],
     "contributes": {
-        "languages": [{
-            "id": "casl2",
-            "aliases": ["CASL2", "casl"],
-            "extensions": [".cas"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "casl2",
-            "scopeName": "source.cas",
-            "path": "./syntaxes/casl2.tmLanguage.json"
-        }]
+        "languages": [
+            {
+                "id": "casl2",
+                "aliases": [
+                    "CASL2",
+                    "casl"
+                ],
+                "extensions": [
+                    ".cas"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "casl2",
+                "scopeName": "source.cas",
+                "path": "./syntaxes/casl2.tmLanguage.json"
+            }
+        ]
     }
 }
