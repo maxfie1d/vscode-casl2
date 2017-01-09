@@ -113,7 +113,7 @@
 		"operands": {
 			"patterns": [
 				{
-					"match": "([^\\s,]+)(, (.+))?",
+					"match": "([^,]+)(, (.+))?",
 					"captures": {
 						"1": {
 							"patterns": [
