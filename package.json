@@ -2,7 +2,7 @@
     "name": "casl2",
     "displayName": "CASL2",
     "description": "CASL2 support for Visual Studio Code.",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "publisher": "MaxfieldWalker",
     "galleryBanner": {
         "color": "#000",
